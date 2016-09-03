@@ -1,0 +1,18 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+is:
+  address_book:
+    other_address: "Önnur heimilisföng"
+    add_new_shipping_address: "Bæta við nýju heimilisfangi viðtakanda"
+    new_shipping_address: "Nýtt heimilisfang viðtakanda"
+    edit_shipping_address: "Breyta heimilisfangi viðtakanda"
+    no_shipping_addresses_on_file: "Ekkert heimilisfang skráð"
+    shipping_addresses: "Heimilisföng viðtakanda"
+    successfully_created: "Heimilisfang var skráð."
+    successfully_removed: "Heimilisfang var afskráð."
+    successfully_saved: "Heimilisfang var vistað."
+    unsuccessfully_saved: "Það gekk ekki að skrá þetta heimilisfang."
+    successfully_updated: "Heimilisfang var uppfært.
+    unsuccessfully_updated: "Það gekk ekki að uppfæra þetta heimilisfang."
+    save: "Vista"
