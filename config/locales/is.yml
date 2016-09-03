@@ -13,6 +13,6 @@ is:
     successfully_removed: "Heimilisfang var afskráð."
     successfully_saved: "Heimilisfang var vistað."
     unsuccessfully_saved: "Það gekk ekki að skrá þetta heimilisfang."
-    successfully_updated: "Heimilisfang var uppfært.
+    successfully_updated: "Heimilisfang var uppfært."
     unsuccessfully_updated: "Það gekk ekki að uppfæra þetta heimilisfang."
     save: "Vista"
