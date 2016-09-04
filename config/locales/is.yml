@@ -3,8 +3,8 @@
 
 is:
   address_book:
-    other_address: "Önnur heimilisföng"
-    add_new_shipping_address: "Bæta við nýju heimilisfangi viðtakanda"
+    other_address: "Annað heimilisfang"
+    add_new_shipping_address: "Bæta við nýju heimilisfangi"
     new_shipping_address: "Nýtt heimilisfang viðtakanda"
     edit_shipping_address: "Breyta heimilisfangi viðtakanda"
     no_shipping_addresses_on_file: "Ekkert heimilisfang skráð"
