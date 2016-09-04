@@ -6,7 +6,7 @@
   <% elsif field == "state" %>
   <% elsif field == "zipcode" %>
     <p class="form-group" id=<%="#{address_id}zipcode" %>>
-      <%= address_form.label :zipcode, Spree.t(:zip) %><span class="required">*</span><br />
+      <%= address_form.label :zipcode, Spree.t(:zipcode) %><span class="required">*</span><br />
       <span id=<%="#{address_id}zipcode-selection" %>>
         <%= address_form.select :zipcode, [['101 Reykjavík', '101'], ['103 Reykjavík', '103'], ['104 Reykjavík', '104'], ['105 Reykjavík', '105'], ['107 Reykjavík', '107'],['108 Reykjavík', '108'],['109 Reykjavík', '109'],['110 Reykjavík', '110'],['111 Reykjavík', '111'],['112 Reykjavík', '112'],['113 Reykjavík', '113'],['121 Reykjavík', '121'],['123 Reykjavík', '123'],['124 Reykjavík', '124'],['125 Reykjavík', '125'],['127 Reykjavík', '127'],['128 Reykjavík', '128'],['129 Reykjavík', '129'],['130 Reykjavík', '130'],['132 Reykjavík', '132'],['150 Reykjavík', '150'],['155 Reykjavík', '155'],['170 Seltjarnarnes', '170'],['172 Seltjarnarnes', '172'],['200 Kópavogur', '200'],['201 Kópavogur', '201'],['201 Kópavogur', '202'],['203 Kópavogur', '203'],['210 Garðabær', '210'],['212 Garðabær', '212'],['220 Hafnarfjörður', '220'],['201 Hafnarfjörður', '201'],['202 Hafnarfjörður', '202'],['203 Hafnarfjörður', '203'],['225 Álftanes', '225'],['270 Mosfellsbær', '270'],['271 Mosfellsbær', '271'],['276 Mosfellsbær', '276'],], {}, {:class => 'required form-control'} %>
       </span>
